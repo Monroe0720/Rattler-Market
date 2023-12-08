@@ -1,0 +1,104 @@
+.stats-stats {
+  width: 1157px;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-twounits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.stats-stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.stats-text {
+  color: rgb(255, 124, 76);
+  font-size: 3rem;
+}
+.stats-text1 {
+  color: #ffffff;
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.stats-stat1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.stats-text2 {
+  top: 2px;
+  left: 27px;
+  color: rgb(255, 124, 76);
+  position: absolute;
+  font-size: 3rem;
+}
+.stats-text3 {
+  left: -9px;
+  color: #ffffff;
+  bottom: -2px;
+  position: absolute;
+  font-size: 1.15rem;
+  text-align: center;
+}
+.stats-stat2 {
+  top: 71px;
+  left: 520px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.stats-text4 {
+  top: -23px;
+  left: 40px;
+  color: #FF7C4C;
+  position: absolute;
+  font-size: 3rem;
+}
+.stats-text6 {
+  color: #ffffff;
+  right: -128px;
+  bottom: -63px;
+  position: absolute;
+  font-size: 1.15rem;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .stats-text {
+    text-align: center;
+  }
+  .stats-text2 {
+    text-align: center;
+  }
+  .stats-text4 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .stats-stats {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr;
+  }
+  .stats-text1 {
+    text-align: center;
+  }
+  .stats-text3 {
+    text-align: center;
+  }
+  .stats-text6 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .stats-stats {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr;
+  }
+}

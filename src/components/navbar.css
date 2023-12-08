@@ -1,0 +1,195 @@
+.navbar-navbar {
+  width: 1195px;
+  height: 109px;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: 1200px;
+  align-self: auto;
+  align-items: center;
+  flex-shrink: 1;
+  padding-top: 12px;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.navbar-container {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-mobile-menu {
+  gap: var(--dl-space-space-twounits);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: column;
+  background-color: #fff;
+}
+.navbar-branding {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-image {
+  width: 100px;
+  filter: brightness(0) saturate(100%);
+  object-fit: cover;
+}
+.navbar-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+}
+.navbar-nav-links {
+  gap: var(--dl-space-space-unit);
+  color: var(--dl-color-gray-black);
+  display: flex;
+  flex-direction: column;
+}
+.navbar-text {
+  color: rgba(255, 255, 255, 1);
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container6 {
+  display: contents;
+}
+.navbar-nav-links1 {
+  gap: var(--dl-space-space-threeunits);
+  top: 43px;
+  left: 583px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.navbar-link4 {
+  font-family: "Inter";
+}
+.navbar-link5 {
+  font-family: "Inter";
+  text-decoration: none;
+}
+.navbar-link6 {
+  font-family: "Inter";
+}
+.navbar-nav-content {
+  gap: var(--dl-space-space-threeunits);
+  top: 54px;
+  left: 381px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbar-hamburger {
+  display: none;
+}
+.navbar-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+.navbar-root-class-name {
+  left: -5px;
+  width: var(--dl-size-size-maxwidth);
+  bottom: -6px;
+  position: absolute;
+  max-width: auto;
+  min-width: auto;
+  background-color: #042701;
+}
+.navbar-root-class-name1 {
+  width: var(--dl-size-size-maxwidth);
+  max-width: auto;
+  min-width: auto;
+  background-color: #042701;
+}
+.navbar-root-class-name2 {
+  width: var(--dl-size-size-maxwidth);
+  max-width: auto;
+  min-width: auto;
+  background-color: #042701;
+}
+.navbar-root-class-name3 {
+  width: var(--dl-size-size-maxwidth);
+  max-width: auto;
+  min-width: auto;
+  background-color: #042701;
+}
+.navbar-root-class-name4 {
+  width: var(--dl-size-size-maxwidth);
+  max-width: auto;
+  min-width: auto;
+  background-color: #042701;
+}
+@media(max-width: 767px) {
+  .navbar-navbar {
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .navbar-branding {
+    width: 100%;
+  }
+  .navbar-nav-links {
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .navbar-nav-links1 {
+    display: none;
+  }
+  .navbar-hamburger {
+    display: flex;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .navbar-image1 {
+    width: 16px;
+    height: 14px;
+  }
+}

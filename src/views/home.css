@@ -1,0 +1,179 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.home-hero {
+  width: 100%;
+  height: 754px;
+  display: flex;
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  padding-left: 4px;
+  margin-bottom: 1px;
+  flex-direction: column;
+  padding-bottom: 5px;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(225deg, rgba(0, 0, 0, 0.95) 35.00%,rgba(4, 53, 4, 0.12) 100.00%),linear-gradient(0deg, rgb(0, 0, 0) 0.00%,rgba(4, 53, 4, 0) 40.00%,rgba(4, 53, 4, 0) 100.00%,rgba(4, 53, 4, 0) 100.00%),url("/Images/snake%20background-1500h.jpg");
+}
+.home-image {
+  width: 398px;
+  height: 108px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.home-text {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-link {
+  color: #ffffff;
+  font-size: 0.75rem;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.home-link:hover {
+  transform: scale(1.02);
+}
+.home-button {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.home-button:hover {
+  transform: scale(1.02);
+}
+.home-image1 {
+  width: 267px;
+  height: 168px;
+  object-fit: cover;
+}
+.home-footer {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #054603;
+}
+.home-text7 {
+  color: #ffffff;
+}
+.home-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-link1 {
+  display: contents;
+}
+.home-icon {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link2 {
+  display: contents;
+}
+.home-icon2 {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link3 {
+  display: contents;
+}
+.home-icon4 {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .home-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-text7 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .home-hero {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .home-btn-group {
+    flex-direction: column;
+  }
+  .home-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .home-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .home-text7 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

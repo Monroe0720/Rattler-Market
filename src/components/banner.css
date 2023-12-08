@@ -1,0 +1,79 @@
+.banner-banner {
+  width: 100%;
+  height: 409px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  align-items: center;
+  padding-top: 44px;
+  flex-direction: column;
+  padding-bottom: 48px;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.banner-text {
+  top: 107px;
+  left: 61px;
+  color: rgb(255, 255, 255);
+  width: 926px;
+  height: 111px;
+  position: absolute;
+  font-size: 3rem;
+  align-self: flex-start;
+  text-align: left;
+}
+.banner-container {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner-button {
+  top: 301px;
+  left: 57px;
+  color: #ffffff;
+  position: absolute;
+  transition: 0.3s;
+  font-family: "LEMON MILK Bold";
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #054603;
+}
+.banner-button:hover {
+  transform: scale(1.02);
+}
+.banner-text1 {
+  top: 52px;
+  left: 61px;
+  color: rgb(181, 80, 0);
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+}
+.banner-text2 {
+  top: 223px;
+  left: 61px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+@media(max-width: 767px) {
+  .banner-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .banner-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
